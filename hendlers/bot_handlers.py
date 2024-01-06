@@ -18,12 +18,12 @@ def reaction_Men_bilan_gaplash(message: Message):
 def reaction_Men_bilan_gaplash(message: Message):
     chat_id = message.chat.id
     bot.send_message(chat_id,"Seshanba kungi dars jadval\n\n"
-                             "1.O'zbekiston tarixi\n"
-                              "2.Jismoniy tarbiya\n"
-                              "3.Chet tili\n"
-                              "4.Algebra\n"
-                              "5.Jaxon tarixi\n"
-                              "6.Ona tili")
+                                "1.O'zbekiston tarixi\n"
+                                "2.Jismoniy tarbiya\n"
+                                "3.Chet tili\n"
+                                "4.Algebra\n"
+                                "5.Jaxon tarixi\n"
+                                "6.Ona tili")
 
 @bot.message_handler(func=lambda message: message.text == "Chorshanba")
 def reaction_Men_bilan_gaplash(message: Message):
